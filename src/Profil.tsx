@@ -6,7 +6,6 @@ const Profil = () => {
 
   return (
     <div className="flex justify-between p-5 items-center text-[#C8ACD6]">
-        <video src={admin.video} />
         {/* Salutation */}
         <div className="w-[40%]">
             {!isOpen ? 
