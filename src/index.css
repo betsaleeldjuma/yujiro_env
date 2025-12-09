@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
 body {
-  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/18205.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #090040;
 }
