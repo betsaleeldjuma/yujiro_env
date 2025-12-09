@@ -5,10 +5,13 @@ const Form = () => {
     const [postName, setPostName] = useState('')
     const [email, setEmail] = useState('')
     const [number, setNumber] = useState('')
-    const [send, setSend] = useState('')
+
+    const handleSubmit = () => {
+        
+    }
 
   return (
-    <div>
+    <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input type="text"value={name} onChange={(e) => setName(e.target.value)}/>
         <label>Post-Name</label>
@@ -17,8 +20,8 @@ const Form = () => {
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
         <label>Number Phone</label>
         <input type="number" value={number} onChange={(e) => setNumber(e.target.value)}/>
-        <button>Send</button>
-    </div>
+        <button type="submit">Send</button>
+    </form>
   )
 }
 
