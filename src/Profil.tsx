@@ -5,7 +5,8 @@ const Profil = () => {
     const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="flex justify-between p-5 items-center">
+    <div className="flex justify-between p-5 items-center text-[#C8ACD6]">
+        <video src={admin.video} />
         {/* Salutation */}
         <div className="w-[40%]">
             {!isOpen ? 
@@ -23,6 +24,7 @@ const Profil = () => {
                 </div>
             </div>}
         </div>
+        {/* Profil */}
         <div className="flex flex-col justify-center items-center w-[40%]">
             <img src={admin.src} alt={admin.name} className="rounded-full"/>
             <h1 className="text-2xl font-extrabold">{admin.name}</h1>
