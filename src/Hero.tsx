@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { admin } from "./data/profil"
+import { admin } from "./data/hero"
 
 const Hero = () => {
     const [isOpenDescription, setIsOpenDescription] = useState(false)
