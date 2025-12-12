@@ -26,8 +26,8 @@ const Hero = () => {
         </div>
         {/* Profil */}
         <div className="flex flex-col justify-center items-center w-[40%] gap-2">
-            <img src={admin.src} alt={admin.name} onClick={() => setIsProfil(!isProfil)} className="rounded-full hover:shadow-[0_0_15px_5px_#C8ACD6]"/>
-            {!isProfil && <div>
+            <img src={admin.src} alt={admin.name} onClick={() => setIsProfil(!isProfil)} className="rounded-full hover:shadow-[0_0_100px_10px_#610094]"/>
+            {isProfil && <div>
                 <h1 className="text-4xl font-extrabold">{admin.name}</h1>
                 <h2 className="font-bold text-3xl">{admin.pseudoName}</h2>
                 {/* <p>{admin.phone}</p>
