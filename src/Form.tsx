@@ -12,13 +12,13 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-        <label>Name</label>
+        <label className="font-bold">Name: </label>
         <input type="text"value={name} onChange={(e) => setName(e.target.value)}/>
-        <label>Post-Name</label>
+        <label className="font-bold">Post-Name: </label>
         <input type="text" value={postName} onChange={(e) => setPostName(e.target.value)}/>
-        <label>Email</label>
+        <label className="font-bold">Email: </label>
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-        <label>Number Phone</label>
+        <label className="font-bold">Number Phone: </label>
         <input type="number" value={number} onChange={(e) => setNumber(e.target.value)}/>
         <button type="submit">Send</button>
     </form>
