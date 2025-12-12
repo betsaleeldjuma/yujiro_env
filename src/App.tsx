@@ -1,9 +1,9 @@
-import Profil from "./Profil"
+import Hero from "./Hero"
 
 const App = () => {
   return (
     <div className="bg-[#2E236C] m-10 rounded-lg p-5">
-       <Profil />
+       <Hero />
     </div>
   )
 }

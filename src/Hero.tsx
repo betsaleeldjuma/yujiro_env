@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { admin } from "./data/profil"
 
-const Profil = () => {
+const Hero = () => {
     const [isOpenDescription, setIsOpenDescription] = useState(false)
     const [isProfil, setIsProfil] = useState(false)
 
@@ -38,4 +38,4 @@ const Profil = () => {
   )
 }
 
-export default Profil
+export default Hero
