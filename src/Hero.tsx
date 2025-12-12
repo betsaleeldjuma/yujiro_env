@@ -6,7 +6,7 @@ const Hero = () => {
     const [isProfil, setIsProfil] = useState(false)
 
   return (
-    <div className="flex justify-between items-center p-10 text-[#C8ACD6]">
+    <div className="flex justify-between items-center p-10 text-[#610094]">
         {/* Salutation */}
         <div className="w-[40%]">
             {!isOpenDescription ? 
