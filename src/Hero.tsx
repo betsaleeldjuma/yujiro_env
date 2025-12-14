@@ -25,7 +25,7 @@ const Hero = () => {
             </div>}
         </div>
         {/* Profil */}
-        <div className="flex flex-col justify-center items-center w-[40%] gap-2">
+        <div className="flex flex-col justify-center items-center w-[40%] gap-6">
             <img src={admin.src} alt={admin.name} onClick={() => setIsProfil(!isProfil)} className="rounded-full hover:shadow-[0_0_100px_10px_#610094]"/>
             {isProfil && <div>
                 <h1 className="text-4xl font-extrabold">{admin.name}</h1>
